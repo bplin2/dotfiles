@@ -107,6 +107,7 @@ alias sshews="ssh bplin2@linux.ews.illinois.edu"
 alias v="vim"
 alias vi="vim"
 alias ls="ls -Gp"
+alias lsa="ls -Gpa"
 alias clr='clear'
 alias reload="source ~/.zshrc"
 alias whereami="pwd"
