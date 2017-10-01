@@ -34,6 +34,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++1y -stdlib=libc++'
+"let g:syntastic_cpp_check_header = 1
 "
 "let g:syntastic_auto_jump = 2
 "let g:syntastic_enable_highlighting = 1
