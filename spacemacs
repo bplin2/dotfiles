@@ -323,7 +323,7 @@ you should place your code here."
   (setq evil-escape-key-sequence "jk")
   (setq multi-term-program "/bin/zsh")
   (display-time-mode 1)
-  ;;(setq c-basic-offset 4)
+  ;;(setq c-basic-offset 2)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
