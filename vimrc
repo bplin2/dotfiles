@@ -63,6 +63,7 @@ imap jk <Esc>
 map <F7> mzgg=G`z
 imap jj <Esc>:w<cr>
 imap ;; <Esc>:wq<cr>
+inoremap <Nul> <C-n>
 set hlsearch
 ":set smartindent
 :set showmatch
