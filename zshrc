@@ -102,6 +102,8 @@ alias pycharm="open -a PyCharm"
 
 #SSH Alias
 alias sshews="ssh bplin2@linux.ews.illinois.edu"
+alias sshews1="ssh bplin2@linux-a1.ews.illinois.edu"
+alias sshews3="ssh bplin2@linux-a3.ews.illinois.edu"
 
 #terminal aliases
 alias v="vim"
@@ -140,6 +142,9 @@ alias chiweather='ansiweather -l chicago,IL -u imperial -f 7'
 #compile stuff
 alias mk='make -j 5'
 alias mkc='make clean'
+
+#python stuff
+alias ipython='python -m IPython'
 
 #thefuck set-up
 eval $(thefuck --alias)

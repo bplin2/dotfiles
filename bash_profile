@@ -146,5 +146,8 @@ alias chiweather='ansiweather -l chicago,IL -u imperial -f 7'
 alias mk='make -j 5'
 alias mkc='make clean'
 
+#python stuff
+alias ipython='python -m IPython'
+
 # added by Anaconda2 4.3.1 installer
 export PATH="/Users/Brian_Lin/anaconda2/bin:$PATH"
