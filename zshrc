@@ -148,3 +148,6 @@ alias ipython='python -m IPython'
 
 #thefuck set-up
 eval $(thefuck --alias)
+
+#ls after cd
+function chpwd() { ls;} #”emulate -L zsh” add before ls if broken
