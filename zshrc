@@ -151,3 +151,9 @@ eval $(thefuck --alias)
 
 #ls after cd
 function chpwd() { ls;} #”emulate -L zsh” add before ls if broken
+
+#source homebrew token file
+if [ -r ~/.homebrew_api ]
+then
+  source ~/.homebrew_api
+fi

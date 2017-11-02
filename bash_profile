@@ -151,3 +151,9 @@ alias ipython='python -m IPython'
 
 # added by Anaconda2 4.3.1 installer
 export PATH="/Users/Brian_Lin/anaconda2/bin:$PATH"
+
+#source homebrew token file
+if [ -r ~/.homebrew_api ]
+then
+  source ~/.homebrew_api
+fi
