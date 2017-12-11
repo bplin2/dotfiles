@@ -107,6 +107,7 @@ alias vi="vim"
 alias ls="ls -Gp"
 alias reload='source ~/.bash_profile'
 alias clr='clear'
+alias cls='clear && printf '\e[3J''
 
 #dark-mode toggles
 alias dark='dark-mode on'

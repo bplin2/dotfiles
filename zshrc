@@ -113,6 +113,7 @@ alias lsa="ls -Gpa"
 alias clr='clear'
 alias reload="source ~/.zshrc"
 alias whereami="pwd"
+alias cls="clear && printf '\e[3J'"
 
 #dark-mode toggles
 alias dark='dark-mode on'
