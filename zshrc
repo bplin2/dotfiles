@@ -129,7 +129,7 @@ alias mv='mv -i'
 alias speedtest='speedtest-cli'
 
 #brew
-alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
 
 #conda
 alias condaup='conda update conda;conda update anaconda'
